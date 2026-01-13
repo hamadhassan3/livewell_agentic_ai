@@ -13,43 +13,51 @@
 LiveWell is a comprehensive digital health platform that combines AI-powered conversational assistance with wellness tracking to support healthy aging. Built with modern web and mobile technologies, it provides personalized health insights, medication management, goal tracking, and social engagement features designed specifically for older adults.
 
 ## APP Demo
-https://github.cs.adelaide.edu.au/user-attachments/assets/a833db6f-643b-4a9a-a54e-806c7e265721
+https://github.com/user-attachments/assets/70b87669-27e0-4811-b166-d452fe926617
+
 
 ## Mobile View
-https://github.cs.adelaide.edu.au/user-attachments/assets/44de9233-0d1a-4f41-8471-3e27a008d7aa
-
+https://github.com/user-attachments/assets/840e0918-bff5-4933-8c33-200cf9968f53
 
 
 
 ## 22 Tool Calls Available to the AI Agent
-<img width="628" alt="Screenshot 2025-11-08 at 1 55 41 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/cc800ba7-247b-422a-91cf-9f590a6bee3c" />
+<img width="1256" height="1602" alt="1_22_tools" src="https://github.com/user-attachments/assets/6b436c82-c45f-415e-a652-25fb27add5d3" />
+
 
 ### Sequential Tool Calls (Calls Client first to get coordinates, then uses reverse geocode tool to get name of location)
-<img width="1243" alt="Screenshot 2025-11-08 at 2 43 49 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/1bb73e27-c3a7-4f5a-8d78-04f71b7f99af" />
+<img width="2486" height="1128" alt="2_sequence_tools" src="https://github.com/user-attachments/assets/4f70df82-abf5-4d3e-802e-246a161cb75d" />
 
 ### Goals and Medication Tracking (Notice the proactive nature of the agent to ask questions)
-<img width="1320" alt="Screenshot 2025-11-08 at 2 45 42 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/4bf46bc4-022b-404c-bbf7-58b0f6a3ab6f" />
+<img width="2640" height="1292" alt="3_goals_and_meds" src="https://github.com/user-attachments/assets/f3f6065c-343c-4fea-9c8b-7604322dcb5c" />
+
 
 ### Profile update tool (Info gathering)
-<img width="1320" alt="Screenshot 2025-11-08 at 2 48 29 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/ffe8fc7b-eee4-4895-9a41-d9b5c82ef62b" />
+<img width="2640" height="1292" alt="4_profile_update" src="https://github.com/user-attachments/assets/34ddfcfa-8aa3-4f70-9b90-0244e275f7ac" />
 
-### Recipes tool (Notice how the agent already knows from profile that the user is diabetic)
-<img width="1320" alt="Screenshot 2025-11-08 at 2 49 22 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/6c090897-c477-4121-aade-3049f1c4bf20" />
+### Recipes tool (Notice how the agent already knows from the profile that the user is diabetic)
+<img width="2640" height="1292" alt="5_recipe_tools" src="https://github.com/user-attachments/assets/64bb4731-c571-481b-987a-78ea1d0beb0f" />
+
 
 ### Nearby locations tool
-<img width="1320" alt="Screenshot 2025-11-08 at 2 50 11 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/39585d27-0d94-4028-8c28-4ed5b558ea61" />
+<img width="2640" height="900" alt="6_nearby_locations" src="https://github.com/user-attachments/assets/c3ac2ffd-ba7a-4f24-a20e-cb69d5ab1f9c" />
+
 
 ### Calculator for accurate information
-<img width="1320" alt="Screenshot 2025-11-08 at 2 51 04 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/34c93af4-cb29-4e97-b8e3-df9000f038ce" />
+<img width="2640" height="788" alt="7_calculator" src="https://github.com/user-attachments/assets/193ae8e6-4392-4fc4-a684-566ed06ce5fd" />
+
 
 ### Info fetched from RAG to maintain credibility
-<img width="1320" alt="Screenshot 2025-11-08 at 2 51 49 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/7f0fc287-b3c9-46ed-8f68-5d38b6d81d12" />
+<img width="2640" height="788" alt="8_RAG_Information" src="https://github.com/user-attachments/assets/7f5008fb-7682-4d00-82bb-ee23b4f3d37b" />
+
 
 ### Web search for factual information
-<img width="1320" alt="Screenshot 2025-11-08 at 2 52 43 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/d263f42e-8ab8-4af9-a1f8-a19abb091964" />
+<img width="2640" height="788" alt="9_web_search" src="https://github.com/user-attachments/assets/e196de69-cae2-4daf-8836-e62b702cf9cc" />
+
 
 ### Creating goals and marking them complete
-<img width="1385" alt="Screenshot 2025-11-08 at 2 55 25 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/72621f01-4c7d-4583-b8bd-f72d87e4bbba" />
+<img width="2770" height="1316" alt="10_create_goals" src="https://github.com/user-attachments/assets/23c266c3-2e9d-4135-b501-93890c482649" />
+
 
 All of the tools give a very interactive and helpful conversation to the user.
 
@@ -59,29 +67,35 @@ All of the tools give a very interactive and helpful conversation to the user.
 4 thorough documents are chunked and added to RAG. These documents are related to healthy ageing from credible websites. This helps the model give responses in accordance with the best practices of RAG.
 
 ### User is Pushed to Improve their health by smart goals (Medium Frailty)
-<img width="1243" alt="proactive pushing" src="https://github.cs.adelaide.edu.au/user-attachments/assets/bb753f32-34d0-4a6f-91e8-457aec42c641" />
+<img width="2486" height="1550" alt="11_user_pushed" src="https://github.com/user-attachments/assets/8bf91f5e-fac2-4ddd-87fc-48cb8d17f5b5" />
+
 
 ### Frail User (Model stops user from overexertion)
-<img width="1243" alt="stop frail" src="https://github.cs.adelaide.edu.au/user-attachments/assets/6dcdce95-6ed5-4ae5-b299-5c3f6cbd61db" />
+<img width="2486" height="1414" alt="12_frail_user" src="https://github.com/user-attachments/assets/c009592d-119f-4ee8-bd17-2c6a6bc3b9c0" />
+
 
 ### Frail User Smart Goals (Notice low intensity)
-<img width="1204" alt="frail user smart goals" src="https://github.cs.adelaide.edu.au/user-attachments/assets/711cd0c5-3203-4bd7-bd36-7d0294a215dd" />
+<img width="2408" height="1602" alt="13_frail_user_smart" src="https://github.com/user-attachments/assets/8dbfc213-509f-4ec5-bc85-8bdd830f83c4" />
+
 
 ### Notifications (2 types of nudges + Reminders, all smartly scheduled according to user preferences)
-<img width="1204" alt="notifications highlight" src="https://github.cs.adelaide.edu.au/user-attachments/assets/f834bbaa-e22f-4d44-8706-342071b515c0" />
+<img width="2408" height="1602" alt="14_notifications" src="https://github.com/user-attachments/assets/8ae94f42-a6d0-4893-88bd-20942d59f0e8" />
+
 
 ### Proactive Information Update Through Notifications
-<img width="1204" alt="proactive information update" src="https://github.cs.adelaide.edu.au/user-attachments/assets/467c17b9-06a3-4acc-890a-a4f2c5bd311b" />
-<img width="1204" alt="proactive iinformation update" src="https://github.cs.adelaide.edu.au/user-attachments/assets/2b3178d1-b99f-4bf2-8c93-141d51bab89c" />
+<img width="2408" height="966" alt="15_proactive_information" src="https://github.com/user-attachments/assets/c3fe64e5-7495-4be6-a5c7-cf79a6c0ab43" />
+<img width="2408" height="966" alt="16_proactive_information_2" src="https://github.com/user-attachments/assets/f6a5815f-c5cb-45a3-8488-4cab5579fd81" />
+
 
 ### Friendly Update of Information (user's dignity is protected)
-<img width="1204" alt="friendly update of information" src="https://github.cs.adelaide.edu.au/user-attachments/assets/4053e3b7-a8ad-4099-8a56-c015d9130cd4" />
+<img width="2408" height="966" alt="17_friendly_update" src="https://github.com/user-attachments/assets/ca4289c2-b136-4009-878b-9e6878e9af02" />
 
 
-## Deployment on Azure
+
+## Deployment on Azure (VM not active anymore)
 Initially, we deployed on Oracle, then AWS, then Azure. We ran out of free resources on AWS and Oracle, so we had to switch to Azure. The Docker setup makes it super easy to do this.
-<img width="1512" alt="Screenshot 2025-11-08 at 1 37 26 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/bc8e73c1-51c6-4869-86df-2ee4346c195f" />
-<img width="1512" alt="Screenshot 2025-11-08 at 1 37 36 pm" src="https://github.cs.adelaide.edu.au/user-attachments/assets/893e5b06-55e5-44d5-934d-187a948907c4" />
+<img width="3024" height="1964" alt="19_azure" src="https://github.com/user-attachments/assets/fed07e5b-60ba-4980-a683-b04bb7058c40" />
+<img width="3024" height="1964" alt="19_azure" src="https://github.com/user-attachments/assets/51199ea4-32cb-4ba2-b5b6-4a0ab7d79372" />
 
 
 ## 📋 Table of Contents
