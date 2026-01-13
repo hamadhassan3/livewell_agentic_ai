@@ -1,0 +1,25 @@
+# Force send all goal reminders (even if already completed)
+python notification/scheduler_tasks.py --once --force-goals
+
+# Force send all medication reminders (regardless of schedule)
+python notification/scheduler_tasks.py --once --force-medications
+
+# Force send nudge notifications (regardless of hourly schedule)
+python notification/scheduler_tasks.py --once --force-nudges
+
+# Force generate summaries (regardless of 5-minute schedule)
+python notification/scheduler_tasks.py --once --force-summaries
+
+# Force ALL notification types
+python notification/scheduler_tasks.py --once --force-all
+
+# Combine multiple force flags
+python notification/scheduler_tasks.py --once --force-goals --force-nudges
+
+# Run continuously with forced notifications
+python notification/scheduler_tasks.py --force-medications --interval 30
+
+# Run quietly with forced notifications
+python notification/scheduler_tasks.py --once --force-all --quiet
+
+python notification/scheduler_tasks.py --once --force-question-nudges

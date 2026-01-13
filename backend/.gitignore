@@ -1,0 +1,67 @@
+# Python/Django
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.pylintrc
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django local settings and secrets
+*.env
+local_settings.py
+.env
+*.secret
+*.key
+
+# Database files (for local testing, if any)
+*.sqlite3
+*.sqlite3-journal
+
+# Static and media files (generated)
+staticfiles/
+media/
+
+# Logs
+*.log
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+.tox/
+nosetests.xml
+coverage/
+htmlcov/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Other temporary files
+*.bak
+*.swp
+*~
+*.lock
+*.pid
+*.seed
+*.pid.lock
+
+# Cache and compiled files
+*.cache
+*.egg-info/
