@@ -593,29 +593,6 @@ npm run reset-project
 - Check FCM token is being generated
 - Ensure device permissions are granted
 
-### Getting Help
-
-- 📧 Email: support@livewell.app
-- 💬 Discord: [Join our community](https://discord.gg/livewell)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/livewell-f/issues)
-- 📚 Docs: [Full documentation](https://docs.livewell.app)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Queensland Health** - For healthy aging guidelines and documentation
-- **WHO Decade of Healthy Ageing** - For framework and best practices
-- **Anthropic & Google** - For AI model access
-- **Open Source Community** - For amazing tools and libraries
-
-### Special Thanks
-- All contributors who have helped shape this project
-- Beta testers for valuable feedback
-- Healthcare professionals for domain expertise
-
 ---
 
 **Built with ❤️ for healthier, happier aging**
