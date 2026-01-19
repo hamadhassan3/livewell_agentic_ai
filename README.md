@@ -12,14 +12,6 @@
 
 LiveWell is a comprehensive digital health platform that combines AI-powered conversational assistance with wellness tracking to support healthy aging. Built with modern web and mobile technologies, it provides personalized health insights, medication management, goal tracking, and social engagement features designed specifically for older adults.
 
-## APP Demo
-https://github.com/user-attachments/assets/70b87669-27e0-4811-b166-d452fe926617
-
-
-## Mobile View
-https://github.com/user-attachments/assets/840e0918-bff5-4933-8c33-200cf9968f53
-
-
 
 ## 22 Tool Calls Available to the AI Agent
 <img width="1256" height="1602" alt="1_22_tools" src="https://github.com/user-attachments/assets/6b436c82-c45f-415e-a652-25fb27add5d3" />
